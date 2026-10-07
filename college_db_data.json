@@ -1,0 +1,107 @@
+{
+  "students": [
+    {
+      "student_id": 1,
+      "register_no": "24AD001",
+      "name": "Dinesh",
+      "department": "AI&DS",
+      "year": 2,
+      "nfc_id": "NFC001",
+      "bus_number": "BUS-01",
+      "pickup_at": "Salem New Bus Stand",
+      "drop_at": "Annapoorana Engineering College"
+    },
+    {
+      "student_id": 2,
+      "register_no": "24AD002",
+      "name": "Arun",
+      "department": "CSE",
+      "year": 2,
+      "nfc_id": "NFC002",
+      "bus_number": "BUS-01",
+      "pickup_at": "Hasthampatti",
+      "drop_at": "Annapoorana Engineering College"
+    },
+    {
+      "student_id": 3,
+      "register_no": "24AD003",
+      "name": "Kumar",
+      "department": "ECE",
+      "year": 2,
+      "nfc_id": "NFC003",
+      "bus_number": "BUS-02",
+      "pickup_at": "Fairlands",
+      "drop_at": "Annapoorana Engineering College"
+    },
+    {
+      "student_id": 4,
+      "register_no": "24AD004",
+      "name": "Ravi",
+      "department": "AI&DS",
+      "year": 2,
+      "nfc_id": "NFC004",
+      "bus_number": "BUS-01",
+      "pickup_at": "Ammapet",
+      "drop_at": "Annapoorana Engineering College"
+    }
+  ],
+  "attendance": [
+    {
+      "attendance_id": 2,
+      "student_id": 1,
+      "bus_number": "BUS-01",
+      "attendance_date": "2026-10-07",
+      "boarding_time": "08:48:02",
+      "dropping_time": "08:48:06",
+      "status": "COMPLETED",
+      "register_no": "24AD001",
+      "name": "Dinesh",
+      "department": "AI&DS",
+      "year": 2,
+      "nfc_id": "NFC001",
+      "pickup_at": "Salem New Bus Stand",
+      "drop_at": "Annapoorana Engineering College"
+    },
+    {
+      "attendance_id": 1,
+      "student_id": 3,
+      "bus_number": "BUS-02",
+      "attendance_date": "2026-10-07",
+      "boarding_time": "07:45:12",
+      "dropping_time": "08:32:45",
+      "status": "COMPLETED",
+      "register_no": "24AD003",
+      "name": "Kumar",
+      "department": "ECE",
+      "year": 2,
+      "nfc_id": "NFC003",
+      "pickup_at": "Fairlands",
+      "drop_at": "Annapoorana Engineering College"
+    }
+  ],
+  "buses": [
+    {
+      "busNumber": "BUS-01",
+      "routeName": "Salem Central & Ammapet Route",
+      "driverName": "Murugan (Driver #04)",
+      "capacity": 40,
+      "stops": [
+        "Salem New Bus Stand (07:30 AM)",
+        "Hasthampatti (07:45 AM)",
+        "Ammapet (08:00 AM)",
+        "Annapoorana Engineering College (08:30 AM)"
+      ]
+    },
+    {
+      "busNumber": "BUS-02",
+      "routeName": "Fairlands & Meyyanur Route",
+      "driverName": "Selvam (Driver #07)",
+      "capacity": 35,
+      "stops": [
+        "Fairlands (07:40 AM)",
+        "New Fairlands Corner (07:55 AM)",
+        "Annapoorana Engineering College (08:30 AM)"
+      ]
+    }
+  ]
+}

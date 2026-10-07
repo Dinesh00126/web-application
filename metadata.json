@@ -1,0 +1,6 @@
+{
+  "name": "College Bus NFC Attendance System",
+  "description": "Smart College Bus NFC Card Attendance System for tracking student boarding and dropping with real-time logging, fleet overview, and mobile support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
